@@ -1,2 +1,3 @@
 rootProject.name = "AlphaResourceLibrary"
 include ':app'
+include ':alphas'

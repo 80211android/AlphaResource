@@ -235,7 +235,7 @@ class AppUtils private constructor() {
 
             val smsManager: SmsManager = SmsManager.getDefault()
             smsManager.sendTextMessage(phoneNo, null, message, sentPI, deliveredPI)
-//            AlertService(mContext).showAlert(mContext, null, "আপনার জরুরী ম্যাসেজটি পাঠানো হয়েছে।")
+//            AlertService(mContext).showAlert(mContext, null, "new Tag")
         } catch (ex: Exception) {
             mContext.showToast("${ex.message}")
         }
